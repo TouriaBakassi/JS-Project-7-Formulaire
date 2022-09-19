@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invalid {
+  all: unset;
+  outline: 2px solid red;
+}
+.valid {
+  all: unset;
+  outline: 2px solid green;
+}
+.invalid-message,
+.invalid-message2,
+.invalid-message3,
+.invalid-message4 {
+  color: red;
+}
+form {
+  margin-top: 60px;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(30, 16, 106);
+  color: beige;
+  border-radius: 20px;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+}
+#button{
+    width: 100%;
+    height: 50px;
+    color:rgb(11, 11, 148);
+    background-color: white ;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
